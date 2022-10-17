@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arx-20-fitted-b.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libmas\Libmas.csproj" />
+    <ProjectReference Include="..\Lib_11\Lib_11.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arx-20-fitted-b.jpg" />
+  </ItemGroup>
+
+</Project>
